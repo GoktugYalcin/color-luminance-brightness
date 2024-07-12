@@ -14,7 +14,7 @@ Just type `npm install color-luminance-brightness`
 #### Usage
 
 ```typescript
-import {isDark} from "./isBright";
+import {isDark} from "color-luminance-brightness";
 
 const colorIsDark = isDark('#123456') // true || false
 ```
@@ -25,7 +25,7 @@ const colorIsDark = isDark('#123456') // true || false
 #### Usage
 
 ```typescript
-import {isBright} from "./isBright";
+import {isBright} from "color-luminance-brightness";
 
 const colorIsBright = isBright('#123456') // true || false
 ```
@@ -36,7 +36,7 @@ const colorIsBright = isBright('#123456') // true || false
 #### Usage
 
 ```typescript
-import {calculateLuminance} from "./calculateLuminance";
+import {calculateLuminance} from "color-luminance-brightness";
 
 const calculated = calculateLuminance(255, 255, 255) // 1
 ```
@@ -47,7 +47,7 @@ const calculated = calculateLuminance(255, 255, 255) // 1
 #### Usage
 
 ```typescript
-import {hexToRgb} from "./hexToRgb";
+import {hexToRgb} from "color-luminance-brightness";
 
 const getRGB = hexToRgb('#ffffff') // [255, 255, 255]
 ```
@@ -58,7 +58,7 @@ const getRGB = hexToRgb('#ffffff') // [255, 255, 255]
 #### Usage
 
 ```typescript
-import {rgbToHex} from "./rgbToHex";
+import {rgbToHex} from "color-luminance-brightness";
 
 const getHEX = rgbToHex(255, 255, 255) // #ffffff
 ```
